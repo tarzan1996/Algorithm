@@ -11,6 +11,8 @@ int main(void){
     int dy[4] = {-1, 1, 0, 0};
     char moveTypes[4] = {'L', 'R', 'U', 'D'};
 
+    scanf("%d", &n);
+
     for (int i = 0; i < plans.size(); i++) {
         char plan = plans[i];
         // 이동 후 좌표 구하기
